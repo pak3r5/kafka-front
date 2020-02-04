@@ -1,0 +1,6 @@
+<p>order works!</p>
+
+
+<div *ngFor="let info of order$ | async">
+    Order Id: .{{info.orderId}}., temperature: {{info.description}}
+</div>
